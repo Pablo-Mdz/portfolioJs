@@ -1,6 +1,6 @@
 // import React from 'react'
 import { contact, section5Title, social } from '../../profile'
-// import emailjs from "emailjs-com"
+
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -10,7 +10,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('gmail', 'template_tvfybt7', form.current, '1d-j2JW1QjE-26RcM')
+        emailjs.sendForm('Gmail', 'template_tvfybt7', form.current, '1d-j2JW1QjE-26RcM')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
