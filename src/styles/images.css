@@ -1,31 +1,31 @@
 
 /* Add your profile image here */
 .Photo{
-    background-image: url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('/src/styles/2.jpeg');
 }
 /* Projects Photo */
-.project1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
+.project-be-chef{
+    background-image: url('/src/styles/be-chef-screen.png');
     cursor: none;    
 }
-.project2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
+.project-sabor-latino{
+    background-image: url('/src/styles/sabor-latino.png');
     cursor: none;
 }
-.project3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
+.project-game{
+    background-image: url('/src/styles/game-oliver.png');
     cursor: none;
 }
-.project4{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
+.project-truco{
+    background-image: url('/src/styles/truco.png');
     cursor: none;
 }
-.project5{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
+.project-SD{
+    background-image: url('/src/styles/SD.png');
     cursor: none;
 }
-.project6{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
+.project-list{
+    background-image: url('/src/styles/contacts.png');
     cursor: none;
 }
 /* Miscelaneous Activities photo */
