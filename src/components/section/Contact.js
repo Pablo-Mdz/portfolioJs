@@ -1,6 +1,4 @@
-// import React from 'react'
 import { contact, section5Title, social } from '../../profile'
-
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -13,6 +11,7 @@ const Contact = () => {
         emailjs.sendForm('service_5ts0tyu', 'template_tvfybt7', form.current, '1d-j2JW1QjE-26RcM')
             .then((result) => {
                 console.log(result.text);
+                console.log("message sent");
             }, (error) => {
                 console.log(error.text);
             });
@@ -30,7 +29,7 @@ const Contact = () => {
                 <div className="container">
                     <div className="git-cont row">
                         <div className="col-12 col-sm-6 half">
-                            <form ref={form} onSubmit={sendEmail} /*action={contact.contactUrl ? contact.contactUrl : "https://formspree.io"} method={contact.contactUrl ? "POST" : "GET"}*/>
+                            <form ref={form} onSubmit={sendEmail} >
                                 <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
                                 <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
                                 <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
@@ -45,8 +44,6 @@ const Contact = () => {
                             <div className="d-flex justify-content-center align-items-center flex-column">
                                 <div className="inline-block">
                                     {social.linkedin && <a title="Visit Linkedin profile" rel="noopener noreferrer" target="_blank" href={social.linkedin}><i className="fab fa-linkedin"></i></a>}
-                                    {social.facebook && <a title="Visit Facebok profile" rel="noopener noreferrer" target="_blank" href={social.facebook}><i className="fab fa-facebook"></i></a>}
-                                    {social.twitter && <a title="Visit Twitter profile" rel="noopener noreferrer" target="_blank" href={social.twitter}><i className="fab fa-twitter"></i></a>}
                                     {social.instagram && <a title="Visit Instagram profile" rel="noopener noreferrer" target="_blank" href={social.instagram}><i className="fab fa-instagram"></i></a>}
                                     {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}<br />
                                 </div>
