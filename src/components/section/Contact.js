@@ -10,7 +10,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('Gmail', 'template_tvfybt7', form.current, '1d-j2JW1QjE-26RcM')
+        emailjs.sendForm('service_5ts0tyu', 'template_tvfybt7', form.current, '1d-j2JW1QjE-26RcM')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -63,3 +63,5 @@ const Contact = () => {
 }
 
 export default Contact
+
+
