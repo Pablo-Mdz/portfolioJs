@@ -7,26 +7,31 @@ import Contact from "./components/section/Contact";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { animation } from "./profile";
+import Carousel from "./components/section/Carrousel";
+import ImageSlider from "./components/section/Carrousel";
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: animation.duration,
-      once: animation.once,
-      disable: !animation.animate,
-    });
-    // eslint-disable-next-line
-  }, []);
+    useEffect(() => {
+        AOS.init({
+            duration: animation.duration,
+            once: animation.once,
+            disable: !animation.animate,
+        });
+        // eslint-disable-next-line
+    }, []);
 
-  return (
-    <div className="App">
-      <Header />
-      <Particles />
-      <About />
-      <Works />
-      <Contact />
-    </div>
-  );
+ 
+
+    return (
+        <div className="App">
+            <Header />
+            <Particles />
+            <About />
+            <Works />
+            {/* <ImageSlider /> */}
+            <Contact />
+        </div>
+    );
 }
 
 export default App;

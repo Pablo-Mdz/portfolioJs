@@ -126,10 +126,32 @@ const projects = [
         url: "https://github.com/Pablo-Mdz",
     },
 ];
+
+
+
+
+
+
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous";
+const section4Title = "Some of my Photos";
+
+const images = [
+    {
+        id: "img1",
+        name: "unage1"
+    },
+    {
+        id: "img2",
+        name: "unage2"
+    },
+    {
+        id: "img3",
+        name: "unage3"
+    },
+]
+
 const miscellaneous = [
     {
         // Add image in './styles/images.css' in #misc1
@@ -185,4 +207,5 @@ export {
     section3Title,
     section4Title,
     section5Title,
+    images,
 };

@@ -29,15 +29,15 @@
     cursor: none;
 }
 /* Miscelaneous Activities photo */
-/* .misc1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
+.img1{
+    background-image: url('/src/styles/img/danzante.jpg');
     cursor: none;
 }
-.misc2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
+.img2{
+    background-image:url('/src/styles/img/mascara.jpg');
     cursor: none;
 }
-.misc3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
+.img3{
+    background-image: url('/src/styles/img/puno.jpg');
     cursor: none;
-} */
+}

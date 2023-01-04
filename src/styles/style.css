@@ -5,3 +5,7 @@
     --primary-color:  #e96224;
     --hover-color:  #ff6600;
 }
+
+img {
+    height: 600px!important;
+}

@@ -1,7 +1,8 @@
 import React from 'react'
 import Project from '../layouts/Project'
-import { projects, miscellaneous, section3Title, section4Title } from '../../profile'
+import { projects, miscellaneous, section3Title, section4Title, images } from '../../profile'
 
+import ImageSlider from '../../components/section/Carrousel'
 const Works = () => {
     return (
         <>
@@ -12,9 +13,9 @@ const Works = () => {
                     </div>
                 </>
                 <div className="row">
-                {projects && projects.map((x) => 
-                <Project key={x.id} id={x.id} url={x.url} name={x.name} skills={x.skills}/>
-                )}
+                    {projects && projects.map((x) =>
+                        <Project key={x.id} id={x.id} url={x.url} name={x.name} skills={x.skills} />
+                    )}
                 </div>
             </div>
 
@@ -24,9 +25,9 @@ const Works = () => {
                         <h1 id="Projects" className="red-line pp-head">{section4Title}</h1>
                     </div>
                 </>
-                <div className="row">
-                    {miscellaneous && miscellaneous.map((x) => 
-                    <Project key={x.id} id={x.id} url={x.url} name={x.name} />
+                <div className="row photo img-pro">
+                    {images && images.map((x) =>
+                        <ImageSlider id={x.id} name={x.name} />
                     )}
                 </div>
             </div> */}
