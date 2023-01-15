@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import { animation } from "./profile";
 // import Carousel from "./components/section/Carrousel";
 // import ImageSlider from "./components/section/Carrousel";
+// test
 
 function App() {
     useEffect(() => {
@@ -20,7 +21,7 @@ function App() {
         // eslint-disable-next-line
     }, []);
 
- 
+
 
     return (
         <div className="App">
