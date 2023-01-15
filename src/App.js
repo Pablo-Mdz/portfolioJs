@@ -7,8 +7,8 @@ import Contact from "./components/section/Contact";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { animation } from "./profile";
-import Carousel from "./components/section/Carrousel";
-import ImageSlider from "./components/section/Carrousel";
+// import Carousel from "./components/section/Carrousel";
+// import ImageSlider from "./components/section/Carrousel";
 
 function App() {
     useEffect(() => {
