@@ -35,6 +35,7 @@ const Contact = () => {
                                 <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
                                 <textarea id="msg" name="message" placeholder="Message" required></textarea>
                                 <button style={{ cursor: 'pointer' }} type="submit" >Send Message</button>
+                                {/* fix button  */}
                             </form>
                         </div>
                         <div className="col-12 col-sm-6 half">
