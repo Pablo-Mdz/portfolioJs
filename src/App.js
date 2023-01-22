@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import { animation } from "./profile";
 // import Carousel from "./components/section/Carrousel";
 // import ImageSlider from "./components/section/Carrousel";
-// test carousel
+
 
 function App() {
     useEffect(() => {
