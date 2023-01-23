@@ -35,7 +35,7 @@ const Contact = () => {
                                 <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
                                 <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
                                 <textarea className=" mx-auto d-block" id="msg" name="message" placeholder="Message" required></textarea>
-                                {/* // center textarea  */}
+                                {/* // center textarea not working */}
                                 <button style={{ cursor: 'pointer' }} type="submit" >Send Message</button>
                                 {/* fix button  */}
                             </form>
