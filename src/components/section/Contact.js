@@ -1,7 +1,7 @@
 import { contact, section5Title, social } from '../../profile'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-// working
+// working and more
 
 const Contact = () => {
     const form = useRef();
@@ -29,12 +29,12 @@ const Contact = () => {
                 </>
                 <div className="container">
                     <div className="git-cont row ">
-                        <div className="col-12 col-sm-6 half">
-                            <form ref={form} onSubmit={sendEmail} className='text-center mx-auto' >
+                        <div className="col-12 col-sm-6 half  ">
+                            <form ref={form} onSubmit={sendEmail} className='form-group text-center mx-auto row ' >
                                 <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
                                 <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
                                 <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
-                                <textarea id="msg" name="message" placeholder="Message" required></textarea>
+                                <textarea className=" mx-auto d-block" id="msg" name="message" placeholder="Message" required></textarea>
                                 <button style={{ cursor: 'pointer' }} type="submit" >Send Message</button>
                                 {/* fix button  */}
                             </form>
