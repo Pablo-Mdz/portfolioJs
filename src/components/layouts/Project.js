@@ -1,4 +1,5 @@
 import React from 'react'
+// project structure
 
 const Project = ({id, name, url, skills}) => {
     return (
@@ -11,5 +12,4 @@ const Project = ({id, name, url, skills}) => {
         </div>
     )
 }
-
 export default Project
