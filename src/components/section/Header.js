@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderButton from '../layouts/HeaderButton'
 import { header } from '../../profile'
-// import '../../styles/email.png'
+import '../../styles/email.png'
 
 const Header = () => {
 
@@ -39,7 +39,7 @@ const Header = () => {
                 </label>
                 <HeaderButton />
             </div>
-            {/* <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="email.png"></img> */}
+            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="email.png"></img>
         </div>
     )
 
