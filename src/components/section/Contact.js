@@ -1,4 +1,4 @@
-import { contact, section5Title, social } from '../../profile'
+import { contact, section5Title, social, Copyright } from '../../profile'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 // working and more
@@ -56,7 +56,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <p id="not-dark" className="Copy">2023 © Copyright <strong>{contact.copyright}</strong>. All Rights Reserved</p>
+            <p id="not-dark" className="Copy">2023 {Copyright} <strong>{contact.copyrightName}</strong>. All Rights Reserved</p>
         </div>
     )
 

@@ -182,7 +182,7 @@ const section5Title = "Get in Touch";
 const contact = {
     pitch:
         "Now, here we are in the best part. If you have any questions or you want to say just hi, feel free to contact me. I will do my best to reply as soon as possible.",
-    copyright: "Pablo Cigoy",
+    copyrightName: "Pablo Cigoy",
     contactUrl: "",
 };
 // Paste your respective social media links. You can omit any if you dont have it
@@ -195,6 +195,8 @@ const social = {
     linkedin: "https://www.linkedin.com/in/pablo-cigoy/",
     //   resume: "https://novoresume.com/",
 };
+
+const Copyright = "© Copyright"
 // Dont change anything here
 export {
     animation,
@@ -211,4 +213,5 @@ export {
     section4Title,
     section5Title,
     images,
+    Copyright,
 };
