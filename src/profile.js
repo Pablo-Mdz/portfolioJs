@@ -178,7 +178,7 @@ const miscellaneous = [
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
 // If you hacve the link already, paste it in the contactUrl below
-const section5Title = "Get in Touch";
+const section5Title = "Get in Touch!";
 const contact = {
     pitch:
         "Now, here we are in the best part. If you have any questions or you want to say just hi, feel free to contact me. I will do my best to reply as soon as possible.",
