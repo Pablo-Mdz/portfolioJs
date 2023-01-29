@@ -10,6 +10,7 @@ const animation = {
 // Change your display name on tha landing display
 const header = {
     name: "Pablo Cigoy",
+    description: "A junior Fronted  developer"
 };
 const background = {
     // Options: Snow or Particle

@@ -1,13 +1,14 @@
 
 import { images, section4Title } from '../../profile'
 import Carousel from 'react-bootstrap/Carousel';
+import '../../styles/carrousel.bootstrap.css'
 
 function ImageSlider() {
 
     const pictures = [
-        'https://res.cloudinary.com/be-chef/image/upload/v1672792194/qgyaajcpvwuxca7qdla9.jpg',
+        'https://replicate.delivery/mgxm/8b4d747d-feca-477d-8069-ee4d5f89ad8e/a_high_detail_shot_of_a_cat_wearing_a_suit_realism_8k_-n_9_.png',
         'https://res.cloudinary.com/be-chef/image/upload/v1672792186/ft3cbqwcx61x3ismxjpr.jpg',
-        'https://res.cloudinary.com/be-chef/image/upload/v1670860710/nkd7rfw3li2ltk9ui3kn.jpg',
+        'https://r2.stablediffusionweb.com/images/stable-diffusion-demo-2.webp',
         'https://res.cloudinary.com/be-chef/image/upload/v1672792259/htq31rmcczqwo0lyvoqf.jpg',
     ];
 
@@ -21,7 +22,7 @@ function ImageSlider() {
                 <Carousel.Item>
                     {/* <div className={`img-pro ${id}`}></div> */}
                     <img
-                        className="d-block w-100 row photo img-pro"
+                        className="d-block w-100 row photo "
                         src={pictures[0]}
                         alt="First slide"
                     />
@@ -33,7 +34,7 @@ function ImageSlider() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 row photo img-pro"
+                        className="d-block w-100 row photo "
                         src={pictures[1]}
                         alt="Second slide"
                     />
@@ -45,7 +46,7 @@ function ImageSlider() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 row photo img-pro"
+                        className="d-block w-100 row photo "
                         src={pictures[2]}
                         alt="Third slide"
                     />
@@ -59,7 +60,7 @@ function ImageSlider() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 row photo img-pro"
+                        className="d-block w-100 row photo "
                         src={pictures[3]}
                         alt="Third slide"
                     />
