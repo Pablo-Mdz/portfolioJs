@@ -28,8 +28,8 @@
         <div id="root"></div>
     </body>
     <script>
-        const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-        if (darkPref.matches && localStorage.getItem('mode') !== "Light")
+        const darkPref = window.matchMedia("(prefers-color-scheme: Light)");
+        if (darkPref.matches && localStorage.getItem('mode') !== "dark")
             localStorage.setItem('mode', 'Dark')
     </script>
     <script>
