@@ -183,7 +183,7 @@ const contact = {
     pitch:
         "Now, here we are in the best part. If you have any questions or you want to say just hi, feel free to contact me. I will do my best to reply as soon as possible.",
     copyrightName: "Pablo Cigoy",
-    contactUrl: "",
+    contactUrl: "https://pablocigoy.com/",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
