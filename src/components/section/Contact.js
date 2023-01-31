@@ -30,14 +30,13 @@ const Contact = () => {
                 <div className="container">
                     <div className="git-cont row ">
                         <div className="col-12 col-sm-6 half  ">
-                            <form ref={form} onSubmit={sendEmail} className='form-group text-center mx-auto row ' >
+                            <form ref={form} onSubmit={sendEmail} className='form-group text-center mx-auto  ' >  {/* row  */}
                                 <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
                                 <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
                                 <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
                                 <textarea className=" mx-auto d-block" id="msg" name="message" placeholder="Message" required></textarea>
                                 {/* // center textarea not working */}
                                 <button style={{ cursor: 'pointer' }} type="submit" >Send Message</button>
-                                {/* fix button  */}
                             </form>
                         </div>
                         <div className="col-12 col-sm-6 half">
