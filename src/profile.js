@@ -10,7 +10,8 @@ const animation = {
 // Change your display name on tha landing display
 const header = {
     name: "Pablo Cigoy",
-    description: "A junior Fronted  developer"
+    description: "A junior Fronted  developer",
+    description2: "A full stack web developer"
 };
 const background = {
     // Options: Snow or Particle
@@ -32,7 +33,7 @@ const skillsBar = [
     {
         name: "HTML5",
         // To add a custom svg instead of font-awesome icons, add svg path below otherwise just comment it out
-        svg: "M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z",
+        // svg: "M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z",
         faClass: "fab fa-html5",
     },
     {
@@ -60,7 +61,6 @@ const skillsBar = [
         // svg: '',
         faClass: "fab fa-python",
     },
-
     {
         name: "Bootstrap",
         // svg: '',
@@ -91,42 +91,42 @@ const projects = [
         // Add image in './styles/images.css' in #project1
         id: "project-be-chef",
         name: "Be Chef - Web page",
-        skills: ["HTML, JS, React, MongoDB, Express, Tailwind"],
+        skills: [" JS, React, MongoDB, Express, Tailwind"],
         url: "https://be-chef.netlify.app/",
     },
     {
         // Add image in './styles/images.css' in #project2
         id: "project-sabor-latino",
         name: "Sabor Latino - Web page",
-        skills: ["HTML, JS, Handlebars, Bootstrap, Express, MongoDB"],
+        skills: [" JS, Handlebars, Bootstrap, Express, MongoDB"],
         url: "https://thoughtful-cod-cloak.cyclic.app/",
     },
     {
         // Add image in './styles/images.css' in #project3
         id: "project-game",
         name: "Save Oliver - Game",
-        skills: ["HTML, CSS, JS, P5 "],
+        skills: [" JS, P5 "],
         url: "https://pablo-mdz.github.io/Game-P5-Shooting/",
     },
     {
         // Add image in './styles/images.css' in #project4
         id: "project-truco",
         name: "Counter - Truco game ",
-        skills: ["HTML, CSS, JS"],
+        skills: [" JS"],
         url: "https://dulcet-pudding-105e47.netlify.app/",
     },
     {
         // Add image in './styles/images.css' in #project5
         id: "project-SD",
         name: "Sourdough Calculator",
-        skills: ["HTML, CSS, Python, Tkinter"],
+        skills: [" CSS, Python, Tkinter"],
         url: "https://github.com/Pablo-Mdz/MasaMadre/blob/main/MasaMadre.py",
     },
     {
         // Add image in './styles/images.css' in #project6
         id: "project-list",
         name: "Contacts list",
-        skills: ["HTML, CSS, Python, Tkinter"],
+        skills: [" CSS, Python, Tkinter"],
         url: "https://github.com/Pablo-Mdz",
     },
 ];
