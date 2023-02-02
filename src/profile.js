@@ -26,7 +26,7 @@ const about = {
         `I am an outgoing, optimistic, and adventurous person with a passion for web development. I recently graduated from Ironhack Berlin's web development bootcamp, where I gained expertise in technologies such as HTML, CSS, JavaScript, MongoDB, Express, React, Node.js, P5, Handlebars Bootstrap and Tailwind. 
         In my free time, I enjoy cooking, travelling, and playing Padel. I am always looking for new challenges and opportunities to learn and grow. I have had the privilege of travelling to 36 countries and have worked in 5 of them, using my skills in teamwork, organisational tasks, task optimization, management, advice, and service in various environments including private and public events.
          With over 10 years of experience working in kitchens, I am a sociable person who thrives in team environments and is committed to constantly improving.`,
-    Other: `this is other text`
+    Other: `this is other text.`
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma

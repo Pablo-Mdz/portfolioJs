@@ -2,6 +2,7 @@
 import { images, section4Title } from '../../profile'
 import Carousel from 'react-bootstrap/Carousel';
 import '../../styles/carrousel.bootstrap.css'
+// carrousel
 
 function ImageSlider() {
 
