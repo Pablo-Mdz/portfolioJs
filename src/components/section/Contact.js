@@ -1,7 +1,7 @@
 import { contact, section5Title, social, Copyright } from '../../profile'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-//ees
+//ee
 
 const Contact = () => {
     const form = useRef();

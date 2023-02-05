@@ -11,7 +11,8 @@ const animation = {
 const header = {
     name: "Pablo Cigoy",
     description: "A junior Fronted  developer",
-    description2: "A full stack web developer"
+    description2: "A full stack web developer",
+    description2: "A backend web developer",
 };
 const background = {
     // Options: Snow or Particle
