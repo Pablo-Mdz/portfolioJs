@@ -1,7 +1,7 @@
 import { contact, section5Title, social, Copyright } from '../../profile'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-//ee
+
 
 const Contact = () => {
     const form = useRef();
@@ -58,7 +58,7 @@ const Contact = () => {
             <p id="not-dark" className="Copy">2023 {Copyright} <strong>{contact.copyrightName}</strong>. All Rights Reserved</p>
         </div>
     )
-    //test
+
 
 }
 
