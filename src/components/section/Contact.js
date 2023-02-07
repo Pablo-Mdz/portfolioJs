@@ -30,12 +30,13 @@ const Contact = () => {
                 <div className="container">
                     <div className="git-cont row ">
                         <div className="col-12 col-sm-6 half  ">
-                            <form ref={form} onSubmit={sendEmail} className='form-group text-center mx-auto d-flex flex-column flex-wrap' >  {/* row  */}
+                            <form ref={form} onSubmit={sendEmail} className="form-group text-center mx-auto d-flex flex-column flex-wrap" >  {/* row  */}
                                 <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
                                 <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
                                 <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
-                                <textarea id="msg" name="message" placeholder="Message" required></textarea>
-                                <button type="submit" style="margin: 0 10px" >Send Message</button>
+                                <textarea id="msg" name="message" placeholder="Message" className=" mx-auto my-2" required></textarea>
+                                {/* style={{ marginLeft: '10px', marginRight: '10px', marginTop: '10px' }}  */}
+                                <button type="submit" style={{ marginLeft: '10px', marginRight: '10px' }} >Send Message</button>
                             </form>
                         </div>
                         <div className="col-12 col-sm-6 half">
