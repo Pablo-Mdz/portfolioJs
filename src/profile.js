@@ -141,23 +141,6 @@ const projects = [
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Some of my Photos";
-
-const images = [
-    {
-        id: "img1",
-        name: "unage1"
-    },
-    {
-        id: "img2",
-        name: "unage2"
-    },
-    {
-        id: "img3",
-        name: "unage3"
-    },
-]
-
 const miscellaneous = [
     {
         // Add image in './styles/images.css' in #misc1
@@ -179,12 +162,34 @@ const miscellaneous = [
     },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
+
+
+
+
+// this is the carrousell section
+const section4Title = "Some of my Photos";
+
+const images = [
+    {
+        id: "img1",
+        name: "unage1"
+    },
+    {
+        id: "img2",
+        name: "unage2"
+    },
+    {
+        id: "img3",
+        name: "unage3"
+    },
+]
+
 // To get your own jotform link, go to https://formspree.io/
 // If you hacve the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch!";
 const contact = {
     pitch:
-        "Now, here we are in the best part. If you have any questions or you want to say just hi, feel free to contact me. I will do my best to reply as soon as possible.",
+        " If you have any question, feel free to contact me. I will do my best to reply as soon as possible.",
     copyrightName: "Pablo Cigoy",
     contactUrl: "https://pablocigoy.com/",
 };

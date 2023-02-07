@@ -1,5 +1,5 @@
 import React from 'react'
-//project
+
 
 const Project = ({ id, name, url, skills }) => {
     return (
