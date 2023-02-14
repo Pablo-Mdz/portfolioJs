@@ -2,7 +2,7 @@ import React from 'react'
 import Project from '../layouts/Project'
 import { projects, miscellaneous, section3Title, section4Title, images } from '../../profile'
 
-// projects.
+// projects
 import ImageSlider from '../../components/section/Carrousel'
 const Works = () => {
     return (
