@@ -1,6 +1,6 @@
 // Change website animations
 const animation = {
-    // make it false to switch off fade-up animation
+    
     animate: true,
     // animation playing duration
     duration: 750,
@@ -30,8 +30,7 @@ const about = {
          With over 10 years of experience working in kitchens, I am a sociable person who thrives in team environments and is committed to constantly improving.`,
     Other: `this is other text.`
 };
-// Edit your skill and the percentage you know about it
-// To Add a skill, copy any one below and paste it after the last comma
+
 const skillsBar = [
     {
         name: "HTML5",
