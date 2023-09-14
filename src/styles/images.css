@@ -1,43 +1,40 @@
-
-/* Add your profile image here */
-.Photo{
-    background-image: url('/src/styles/2.jpeg');
+.Photo {
+    background-image: url("/src/styles/2.jpeg");
 }
 /* Projects Photo */
-.project-be-chef{
-    background-image: url('/src/styles/be-chef-screen.png');
-    cursor: none;    
-}
-.project-sabor-latino{
-    background-image: url('/src/styles/sabor-latino.png');
+.project-be-chef {
+    background-image: url("/src/styles/be-chef-screen.png");
     cursor: none;
 }
-.project-game{
-    background-image: url('/src/styles/game-oliver.png');
+.project-sabor-latino {
+    background-image: url("/src/styles/sabor-latino.png");
     cursor: none;
 }
-.project-truco{
-    background-image: url('/src/styles/truco.png');
+.project-game {
+    background-image: url("/src/styles/game-oliver.png");
     cursor: none;
 }
-.project-SD{
-    background-image: url('/src/styles/SD.png');
+.project-truco {
+    background-image: url("/src/styles/truco.png");
     cursor: none;
 }
-.project-list{
-    background-image: url('/src/styles/contacts.png');
+.project-SD {
+    background-image: url("/src/styles/SD.png");
     cursor: none;
 }
-/* Miscelaneous Activities photo */
-.img1{
-    background-image: url('/src/styles/img/danzante.jpg');
+.project-list {
+    background-image: url("/src/styles/contacts.png");
     cursor: none;
 }
-.img2{
-    background-image:url('/src/styles/img/mascara.jpg');
+.img1 {
+    background-image: url("/src/styles/img/danzante.jpg");
     cursor: none;
 }
-.img3{
-    background-image: url('/src/styles/img/puno.jpg');
+.img2 {
+    background-image: url("/src/styles/img/mascara.jpg");
+    cursor: none;
+}
+.img3 {
+    background-image: url("/src/styles/img/puno.jpg");
     cursor: none;
 }

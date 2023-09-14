@@ -19,7 +19,6 @@ const background = {
     // Options: Snow or Particle
     type: "Particle",
 };
-// Write a para about yourself here
 // To update your image, go to './styles/images.css'
 const section2title = "About Me";
 const about = {
