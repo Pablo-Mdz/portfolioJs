@@ -1,6 +1,6 @@
 // Change website animations
 const animation = {
-    
+
     animate: true,
     // animation playing duration
     duration: 750,
@@ -14,9 +14,11 @@ const header = {
     description2: "A full stack web developer",
     description3: "A backend web developer",
     description3: "A UX/UI designer",
+    description4: " UX/UI designer",
 };
 const background = {
-    // Options: Snow or Particle
+    // Options: Snow or Particle   
+    // Options: Snow or Particle   
     type: "Particle",
 };
 // To update your image, go to './styles/images.css'
