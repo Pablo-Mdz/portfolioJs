@@ -32,6 +32,18 @@ const Works = () => {
                     )}
                 </div>
             </div> */}
+            {/* <div className="third">
+                <>
+                    <div className="pp-head-line mx-auto text-center">
+                        <h1 id="Projects" className="red-line pp-head">{section4Title}</h1>
+                    </div>
+                </>
+                <div className="row photo img-pro">
+                    {images && images.map((x) =>
+                        <ImageSlider id={x.id} name={x.name} />
+                    )}
+                </div>
+            </div> */}
         </>
     )
 }

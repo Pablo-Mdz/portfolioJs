@@ -18,7 +18,6 @@ const header = {
 };
 const background = {
     // Options: Snow or Particle   
-    // Options: Snow or Particle   
     type: "Particle",
 };
 // To update your image, go to './styles/images.css'
