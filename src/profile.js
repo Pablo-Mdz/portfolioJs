@@ -14,6 +14,8 @@ const header = {
     description2: "A full stack web developer",
     description3: "A backend web developer",
     description3: "A UX/UI designer",
+    // description3: "A UX/UI designer",
+    // description3: "A UX/UI designer",
     description4: " UX/UI designer",
 };
 const background = {
