@@ -85,6 +85,11 @@ const skillsBar = [
         // svg: '',
         faClass: "fab fa-mdb",
     },
+    // {
+    //     name: "MongoDB",
+    //     // svg: '',
+    //     faClass: "fab fa-mdb",
+    // },
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
