@@ -19,7 +19,7 @@ const Works = () => {
                     )}
                 </div>
             </div>
-{/* photos here  */}
+
             {/* <div className="third">
                 <>
                     <div className="pp-head-line mx-auto text-center">

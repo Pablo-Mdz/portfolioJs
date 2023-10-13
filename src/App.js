@@ -10,6 +10,7 @@ import { animation } from "./profile";
 // import ImageSlider from "./components/section/Carrousel";
 
 
+
 function App() {
     useEffect(() => {
         AOS.init({

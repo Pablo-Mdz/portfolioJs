@@ -30,7 +30,7 @@ const Contact = () => {
                 <div className="container">
                     <div className="git-cont row ">
                         <div className="col-12 col-sm-6 half  ">
-                            <form ref={form} onSubmit={sendEmail} className="form-group text-center mx-auto d-flex flex-column flex-wrap" >  {/* row  */}
+                            <form ref={form} onSubmit={sendEmail} className="form-group text-center mx-auto d-flex flex-column flex-wrap " >  {/* row  */}
                                 <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
                                 <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
                                 <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
@@ -63,5 +63,3 @@ const Contact = () => {
 }
 
 export default Contact
-
-
